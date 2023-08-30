@@ -1,6 +1,6 @@
 # lambda-add-user-to-groups
 
-# How it works
+## How it works
 
 Example lambda sync Azure AD groups to AWS cognito.
 
@@ -12,5 +12,5 @@ After getting the user id, we will get all user groups for that specific user id
 
 If the user group doesn't exist on AWS Cognito, this will be automatically created before adding the user.
 
-# Deployment
+## Deployment
 Run `npm install` before deploying the Lambda.
